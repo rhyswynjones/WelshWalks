@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:welshwalks="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/action_selection"
+        android:icon="@drawable/choosewalk_grey_icon"
+        android:title="@string/chooseWalk"
+        android:orderInCategory="1"
+        welshwalks:showAsAction="always" />
+    <item android:id="@+id/action_map"
+        android:icon="@drawable/map_grey_icon"
+        android:title="@string/map"
+        android:orderInCategory="2"
+        welshwalks:showAsAction="always" />
+    <item android:id="@+id/action_details"
+        android:icon="@drawable/details_grey_icon"
+        android:title="@string/details"
+        android:orderInCategory="3"
+        welshwalks:showAsAction="always" />
+    
+    <item
+        android:id="@+id/action_map_views"
+        android:title="@string/views"
+        android:orderInCategory="100"
+        welshwalks:showAsAction="never" >
+        	<menu android:id="@+id/submenu" >
+        	    <item
+			        android:id="@+id/action_normalMap"
+			        android:orderInCategory="100"
+			        welshwalks:showAsAction="never"
+			        android:title="@string/action_normalMap"/>
+				<item
+			        android:id="@+id/action_hybridMap"
+			        android:orderInCategory="100"
+			        welshwalks:showAsAction="never"
+			        android:title="@string/action_hybridMap"/>
+				<item
+			        android:id="@+id/action_satelliteMap"
+			        android:orderInCategory="100"
+			        welshwalks:showAsAction="never"
+			        android:title="@string/action_satelliteMap"/>
+				<item
+			        android:id="@+id/action_terrainMap"
+			        android:orderInCategory="100"
+			        welshwalks:showAsAction="never"
+			        android:title="@string/action_terrainMap"/>
+        	</menu>
+    </item>
+    <item
+        android:id="@+id/action_legalnotices"
+        android:title="@string/action_legalnotices"
+        android:orderInCategory="100"
+        welshwalks:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/action_help"
+        android:orderInCategory="100"
+        welshwalks:showAsAction="never" />
+    
+</menu>

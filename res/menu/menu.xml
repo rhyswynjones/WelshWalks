@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:welshwalks="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/action_selection"
+        android:icon="@drawable/choosewalk_grey_icon"
+        android:title="@string/chooseWalk"
+        android:orderInCategory="1"
+        welshwalks:showAsAction="always" />
+    <item android:id="@+id/action_map"
+        android:icon="@drawable/map_grey_icon"
+        android:title="@string/map"
+        android:orderInCategory="2"
+        welshwalks:showAsAction="always" />
+    <item android:id="@+id/action_details"
+        android:icon="@drawable/details_grey_icon"
+        android:title="@string/details"
+        android:orderInCategory="3"
+        welshwalks:showAsAction="always" />
+    
+    <item
+        android:id="@+id/action_legalnotices"
+        android:title="@string/action_legalnotices"
+        android:orderInCategory="100"
+        welshwalks:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/action_help"
+        android:orderInCategory="100"
+        welshwalks:showAsAction="never" />
+    
+</menu>

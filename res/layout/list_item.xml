@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical" >
+
+	<TextView 
+	    android:id="@+id/name"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:textColor="@color/textColor"
+	    android:textStyle="bold"
+	    android:textSize="20sp" />
+	
+	<TextView 
+	    android:id="@+id/distance"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:textColor="@color/textColor"
+	    android:textSize="16sp" />
+	
+	<TextView
+	    android:id="@+id/difficulty"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:textColor="@color/textColor"
+	    android:typeface="sans"
+	    android:textStyle="italic"
+	    android:textSize="16sp" />
+
+</LinearLayout>
+

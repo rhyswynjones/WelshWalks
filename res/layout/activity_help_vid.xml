@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:padding="10dp"
+    tools:context=".HelpVidActivity" >
+    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+				android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginBottom="20dp"
+		        android:textStyle="bold"
+		        android:textSize="30sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_subtitle" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_wel_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_wel1" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_wel2" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_wel3" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_wel4" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_tab_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_tab1" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_tab2" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_choose_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_choose1" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map_video" />
+            <VideoView
+			   android:id="@+id/action_help_vid"
+			   android:layout_marginBottom="5dp"
+			   android:layout_width="fill_parent"
+			   android:layout_height="wrap_content" /> 
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map1" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map2" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map3" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map4" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map5" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map6" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map7" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map8" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map9" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map10" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map11" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map12" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map13" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map14" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map15" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map16" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map17" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map18" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map19" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_map20" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_det_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_det1" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_det2" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_det3" />
+            
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_gen_title" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="5dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_gen1" />
+            <TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="20dp"
+		        android:textSize="18sp"
+		        android:textColor="@color/textColor"
+		        android:text="@string/help_gen2" />
+			
+		</LinearLayout>
+</ScrollView>
+

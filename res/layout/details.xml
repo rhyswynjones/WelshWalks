@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bgColor" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+	    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:orientation="horizontal" >
+	        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textStyle="bold"
+			        android:textSize="16sp"
+			        android:textColor="@color/textColor"
+			        android:text="@string/det_dis_walked" />
+			    
+			    <EditText
+			        android:id="@+id/enterdistancewalked"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/textColor"
+			        android:text="@string/det_zero"
+			        android:background="@color/silver"
+			        android:inputType="numberDecimal" >
+			    </EditText>
+		</LinearLayout>  
+		
+		<Button
+			android:id="@+id/updateDetailsButton"
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:padding="15dp"
+	        android:textColor="@color/buttonColor"
+	        android:text="@string/det_update" />
+	    
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:orientation="horizontal" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+			    android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_dis_total" />
+		
+		    <TextView 
+		        android:id="@+id/distanceTV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_zero" />
+	
+	    </LinearLayout>
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:orientation="horizontal" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+			    android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_num_walked" />
+		
+		    <TextView 
+		        android:id="@+id/walksTV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_zero" />
+	
+	    </LinearLayout>
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:orientation="horizontal" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+			    android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_dis_avg" />
+		
+		    <TextView 
+		        android:id="@+id/averageTV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/textColor"
+		        android:textSize="16sp"
+		        android:text="@string/det_zero" />
+	
+	    </LinearLayout>
+	    <Button
+			android:id="@+id/resetDetailsButton"
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:padding="15dp"
+	        android:textColor="@color/buttonColor"
+	        android:text="@string/det_reset" />
+	</LinearLayout>
+</ScrollView>
+</LinearLayout>
